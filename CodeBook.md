@@ -35,4 +35,4 @@ These signals were used to estimate variables of the feature vector for each pat
 
 various aggregate functins are performed on the above variables that denoted by function name in the original dataset's code book.
 
-within the scope of this assignement additional calculation of mean values (per person and activity) was performed. Since the calculation was 'uniformed' it does not seem to add much value to add 'Average of _variable name_ by subject/activity, so manes are just left teh same as in the original data source. all original variables are normalized to (-1, 1) interval   
+within the scope of this assignement additional calculation of mean values (per person and activity) was performed. Since the calculation was 'uniformed' it does not seem to add much value to add 'Average of _variable name_ by subject/activity', so manes are just left teh same as in the original data source. all original variables are normalized to (-1, 1) interval   
