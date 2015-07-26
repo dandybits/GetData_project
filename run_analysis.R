@@ -54,6 +54,9 @@ subject_feature_activity <- cbind(subject, activity, features_subset)
 ## 
 sfa_name_val <- melt(subject_feature_activity, id.var=c("subject", "activity_id"), na.rm=TRUE)
 sfa_mean <- dcast(sfa_name_val, subject + activity_id ~ variable, mean)
+sfa_mean <- join(sfa_mean, activity_lookup, by = "activity_id")
+sfa_mean <- sfa_mean[,-c(2)]
+
 sfa_mean$subject <- paste("Person", sfa_mean$subject)
 
 ##
