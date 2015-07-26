@@ -11,24 +11,24 @@ WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING
 
 * Measurements
 
-Measures are derived from the original data set (see ReadMe.md). They are, per original description 
+Measures are derived from the original data set (see ReadMe.md). They are, per original description:<br>
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
  tBodyAcc-XYZ<br>
  tGravityAcc-XYZ<br>
- tBodyAccJerk-XYZ
- tBodyGyro-XYZ
- tBodyGyroJerk-XYZ
- tBodyAccMag
- tGravityAccMag
- tBodyAccJerkMag
- tBodyGyroMag
- tBodyGyroJerkMag
- fBodyAcc-XYZ
- fBodyAccJerk-XYZ
- fBodyGyro-XYZ
- fBodyAccMag
+ tBodyAccJerk-XYZ<br>
+ tBodyGyro-XYZ<br>
+ tBodyGyroJerk-XYZ<br>
+ tBodyAccMag<br>
+ tGravityAccMag<br>
+ tBodyAccJerkMag<br>
+ tBodyGyroMag<br>
+ tBodyGyroJerkMag<br>
+ fBodyAcc-XYZ<br>
+ fBodyAccJerk-XYZ<br>
+ fBodyGyro-XYZ<br>
+ fBodyAccMag<br>
  fBodyAccJerkMag
  fBodyGyroMag
  fBodyGyroJerkMag
