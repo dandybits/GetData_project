@@ -10,7 +10,7 @@ GetData_project github repository contains code and notes for the course project
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 # data source
-Data source is located here https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Data source is uploaded from here https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip on 24Jul2015
 
 
 # notes
