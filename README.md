@@ -14,3 +14,4 @@ Data source is uploaded from here https://d396qusza40orc.cloudfront.net/getdata%
 
 
 # notes
+see comments in the code
