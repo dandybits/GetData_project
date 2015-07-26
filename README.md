@@ -11,4 +11,4 @@ GetData_project github repository contains code and notes for the course project
 Data source is located here https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
-# Notes
+# notes
