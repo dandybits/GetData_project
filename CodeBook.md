@@ -15,8 +15,8 @@ Measures are derived from the original data set (see ReadMe.md). They are, per o
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
- tBodyAcc-XYZ
- tGravityAcc-XYZ
+ tBodyAcc-XYZ<br>
+ tGravityAcc-XYZ<br>
  tBodyAccJerk-XYZ
  tBodyGyro-XYZ
  tBodyGyroJerk-XYZ
