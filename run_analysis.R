@@ -1,10 +1,12 @@
-## WORK IN PROGRESS
 ##
-## This code uses data.table package. It's assumed 
-## that the package is already loaded
+## This code uses data.table and reshape2 packages. It's assumed 
+## that packages are already loaded
 ## This code assumes that files being merged have matching
 ## number of columns/rows as appropriate. This verification 
 ## was performed visually in text editor. 
+##
+## This script was assempled from interactive commands so 
+## it is possible that something got missed or inserted slightly out of order
 ##
 
 ##
@@ -39,6 +41,7 @@ activity_lookup  <- read.table("UCI HAR Dataset//activity_labels.txt", col.names
 filter_col_index <- grep("-mean\\(|-std\\(", feature_lookup$feature_name)
 
 features_subset  <- features[,c(filter_col_index)]
+colnames(features_subset) <- feature_lookup[c(filter_col_index), "feature_name"]
 
 ## merge columns, assign colnames
 colnames(subject) <- c("subject")
@@ -49,11 +52,11 @@ subject_feature_activity <- cbind(subject, activity, features_subset)
 ##
 ## Calculate averages for each activity for each subject
 ## 
-
+sfa_name_val <- melt(subject_feature_activity, id.var=c("subject", "activity_id"), na.rm=TRUE)
+sfa_mean <- dcast(sfa_name_val, subject + activity_id ~ variable, mean)
+sfa_mean$subject <- paste("Person", sfa_mean$subject)
 
 ##
 ## Print output
 ##
-#subject$subject <- paste("Person", subject$subject)
-
-a <- merge(activity_lookup, activity, by = 'activity_id'))
+write.table(sfa_mean, file="tidy_data.txt")
