@@ -1,5 +1,5 @@
 # summary
-GetData_project github repository contains code and notes for the course project for Getting and Cleaning Data class on Coursera (part of Data Science Certification). Objective of the assignment, as stated in the project description is
+GetData_project github repository contains code and notes for the course project for Getting and Cleaning Data class on Coursera (part of Data Science Certification). The bjective of the assignment, as stated in the project description is
 
  You should create one R script called run_analysis.R that does the following:
  
